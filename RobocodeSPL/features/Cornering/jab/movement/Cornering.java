@@ -18,7 +18,7 @@ public class Cornering extends Movement {
 
 	public void move() {
 		// Limit our speed to 5
-		bot.setMaxVelocity(8);
+		bot.setMaxVelocity(15);
 		// Start moving (and turning)
 		bot.setAhead(10000);
 	}
